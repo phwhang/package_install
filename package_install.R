@@ -1,7 +1,7 @@
 #Navigate to each line and click "run" or use cmd-Enter (Mac) or Ctrl+Enter (PC)
 
 # Check your R version
-R.Version()
+# R.Version()
 
 # Do you need to update?
 ifelse(R.Version()$major == "4", "You don't need to update R", "You need to update R!")
